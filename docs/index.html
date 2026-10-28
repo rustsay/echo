@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Эхо — ОГЭ по математике, которую можно слушать</title>
+<meta name="description" content="Доступная подготовка к ОГЭ по математике для слабовидящих и незрячих школьников: озвучка заданий и формул, управление с клавиатуры, крупный шрифт и высокий контраст.">
+<meta name="theme-color" content="#4B1F78">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<header class="top">
+  <a class="brand" href="#/" aria-label="Эхо — на главную">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="12" cy="20" r="5"/><path d="M21 11a13 13 0 0 1 0 18"/><path d="M27 6a20 20 0 0 1 0 28"/></svg>
+    <span>Эхо</span>
+  </a>
+  <nav aria-label="Основное меню">
+    <a href="#/settings">Настройки</a>
+    <a href="#/help">Как пользоваться</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1"></main>
+<div id="announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+<div id="speaking" class="speaking" aria-hidden="true" hidden><span></span><span></span><span></span> говорю</div>
+<section id="print-area" class="print-area" aria-hidden="true"></section>
+<noscript><p class="noscript">Для работы тренажёра нужен JavaScript.</p></noscript>
+<script src="checker.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

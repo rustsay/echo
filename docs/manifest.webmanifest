@@ -1,0 +1,10 @@
+{
+  "name": "Эхо — ОГЭ по математике, который можно слушать",
+  "short_name": "Эхо",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4B1F78",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
